@@ -1,0 +1,369 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin-left: 190px;
+  height: 60px;
+  background-color: #0e1e38;
+  color: whitesmoke;
+}
+
+body {
+  background-color: #16253d;
+}
+
+pre {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+h2 {
+  color: black;
+  background-color: #FF8225;
+  left: 0;
+}
+
+button {
+  height: 50px;
+  width: 160px;
+  background-color: #041229;
+  color: #ffffff;
+  border-style: hidden ;
+  font-weight: bolder;
+}
+
+#navbar {
+  display: flex;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #0e1e38;
+  padding-top: 20px;
+  overflow-y: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#navbar a {
+  display: block;
+  color: #041229;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#navbar a:hover {
+  background-color: #295F98;
+  color: white;
+}
+
+#navbar button:hover {
+  background-color: #295F98;
+  color: white;
+}
+
+#navbar button {
+  background-color: #295F98;
+  color: white;
+  border-radius: 20px;
+}
+
+#navbar2 {
+  display: flex;
+  height: 55px;
+  width: 1200px;
+  position: fixed;
+  left: 200px;
+  top: 60px;
+  background-color: #164863;
+  padding-top: 5px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#navbar2 a {
+  display: block;
+  color: #041229;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#navbar2 a:hover {
+  background-color: #cab8a2;
+  color: black;
+  border-radius: 15px;
+}
+
+#navbar2 button:hover {
+  background-color: #cab8a2;
+  color: black;
+  border-radius: 15px;
+  transform: translateZ(20px) scale(1.02);
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.3);
+}
+
+#navbar2 button {
+  border-radius: 15px;
+  background-color: #FFA41B;
+  color: black;
+}
+
+#logo {
+  background-image: url(Logo.jpg);
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin-left: 30px;
+}
+
+#Brain {
+  border-width: 10px;
+  margin-left: 200px;
+  margin-top: 60px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+}
+
+#Brain button:hover { 
+  transform: translateZ(20px) scale(1.02);
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.3);
+}
+
+#container1 {
+  border-width: 5px;
+  height: 65px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#Search {
+  background-image: url(Search.jpg);
+  background-size: cover;
+  height: 65px;
+  width: 700px;
+  border-radius: 18px;
+  align-self: center;
+}
+
+#Container2 {
+  border-width: 10px;
+  margin-left: 50px;
+  height: 340px;
+  width: 1070px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+#JEE {
+  background-image: url("JEE\ MAINS.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 500px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+#Check {
+  background-image: url("Check\ List.jpg");
+  background-size: cover;
+  height: 250px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+#classbox {
+  display: flex;
+  flex-direction: row;
+  height: 380px;
+  width: 1200px;
+  margin: 80px 0px 0px 140px;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: bolder;
+  font-size: small;
+  font-family: monospace;
+  overflow: hidden;
+}
+
+#box1 {
+  height: 300px;
+  width: 170px;
+  background-color: #FF8225;
+  border-radius: 30px;
+  padding: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#PhysicsClass {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #ce5c05;
+  border-radius: 30px;
+  text-wrap: nowrap;
+  background-image: url(PHYSICS.jpg);
+  background-size: cover;
+}
+
+#box2 {
+  height: 300px;
+  width: 170px;
+  background-color: #179BAE;
+  border-radius: 30px;
+  padding: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#MathsClass {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #057f92;
+  border-radius: 30px;
+  text-wrap: nowrap;
+  background-image: url(MATHS.jpg);
+  background-size: cover;
+}
+
+#box3 {
+  height: 300px;
+  width: 170px;
+  background-color: #54B435;
+  border-radius: 30px;
+  padding: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#ChemistryClass {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #38941a;
+  border-radius: 30px;
+  text-wrap: nowrap;
+  background-image: url(CHEMISTRY.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+#classbox a {
+  text-decoration: none;
+}
+
+#classbox a :hover {
+  transform: translateZ(20px) scale(1.02);
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.3);
+  border-radius: 30px;
+}
+
+#classbox pre {
+  transform: translateZ(20px) scale(1.02);
+  box-shadow: 0 10px 20px rgb(0, 0, 0, 0.3);
+  border-radius: 30px;
+  transform-style: preserve-3d;
+}
+
+#bookbox1 {
+  height: 300px;
+  width: 170px;
+  background-color: #FF8225;
+  border-radius: 30px;
+  padding: 40px;
+  text-align: center;
+  overflow: hidden;
+  background-image: url(P\ BOOK.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#bookbox2 {
+  height: 300px;
+  width: 170px;
+  background-color: #FF8225;
+  border-radius: 30px;
+  padding: 40px;
+  text-align: center;
+  overflow: hidden;
+  background-image: url(M\ BOOK.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#bookbox3 {
+  height: 300px;
+  width: 170px;
+  background-color: #FF8225;
+  border-radius: 30px;
+  padding: 40px;
+  text-align: center;
+  overflow: hidden;
+  background-image: url(C\ BOOK.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#classlist {
+  color: white;
+  margin-left: 250px;
+  margin-top: 50px;
+  height: 900px;
+}
+
+#classlist a {
+  text-decoration: none;
+  color: white;
+}
+
+#classlist li {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#classlist li :hover {
+  color: #FF8225;
+}
+
+#sbox {
+  position: absolute;
+  left: 200px;
+  right: 0;
+}
+
+#back {
+  height: 50px;
+  width: 70px;
+  margin-left: 190px;
+  overflow: hidden;
+}
+
+#back button {
+  height: 50px;
+  width: 70px;
+  border-radius: 20px;
+  background-color: #164863;
+}
+
+#back :hover {
+  height: 50px;
+  width: 70px;
+  border-radius: 20px;
+  background-color: #FF8225;
+  color: black;
+}
